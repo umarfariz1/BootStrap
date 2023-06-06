@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horizantal Forms</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="name" class="col-xs-2">Name</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" id="name" placeholder="Enter your name"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="email" class="col-xs-2">Email Id</label>
+    <div class="col-xs-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter your E mail ID"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="mobileNumber" class="col-xs-2" >Mobile Number</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" id="mobileNumber" placeholder="+91 XXXXX XXXXX"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="description" class="col-xs-2">
+      Description
+    </label>
+    <div class="col-xs-10">
+      <textarea class="form-control" id="description" placeholder="Enter your comments here"></textarea>
+    </div>
+  </div>
+  <div class="col-xs-offset-2">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-default">Reset</button>
+  </div>
+</form>
+</div>
+</body>
+</html>
