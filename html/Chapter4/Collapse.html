@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collapse</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<div class="container">
+    <div class="panel-group" id="panel">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title text-center">
+                    <a data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" title="java"  href="#java" data-parent="#panel">
+                        Java
+                    </a>
+                </h2>
+            </div>
+            <div class="panel-collapse collapse out" id="java">
+                <div class="panel-body">
+                    <p class="text-center">Java is an object oriented programming language</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title text-center">
+                    <a data-toggle="collapse" data-parent="#panel" href="#html">
+                        HTML
+                    </a>
+                </h2>
+            </div>
+            <div class="panel-collapse collapse out" id="html">
+                <div class="panel-body">
+                    <p class="text-center">HTML stands for Hypertext markup language</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
