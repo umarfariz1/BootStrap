@@ -1,0 +1,159 @@
+body{
+background-color:grey;
+
+}
+.navbar{
+position:sticky;
+top:0;
+z-index:99;
+
+width:100%;
+
+}
+
+.heading h2{
+color:orange;
+font-family:Cinzel;
+font-size:40px;
+font-weight:1000;
+padding:50px 0px 0px 0px;
+
+
+}
+.heading p {
+font-family:Roboto;
+font-size:12px;
+color:white;
+letter-spacing:5px;
+
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  color:white;
+}
+.center h4{
+color:orange;
+text-shadow:1px 1px black;
+letter-spacing:1.5px;
+font-family:cinzel;
+}
+.center p{
+color:white;
+text-shadow:1px 1px grey;
+letter-spacing:3px;
+font-family:roboto;
+}
+.background-overlay img{
+opacity:0.4;
+height:400px;
+width:100%
+margin:20px 20px 20px 20px;
+}
+.background-overlay
+{
+background-color:black;
+clear:both;
+}
+.para{
+text-align:justify;
+padding:10px 250px 0px 250px;
+text-indent:125px;
+letter-spacing:1px;
+
+}
+button{
+padding:10px 15px;
+background-color:black;
+color:white;
+border:none;
+font-family:roboto;
+letter-spacing:1px;
+border-radius:05px;
+}
+button:hover{
+background-color:orange;
+color:white;
+cursor:pointer;
+
+}
+button:active{
+background-color:blue;
+}
+.sub_heading{
+color:black;
+font-family:Cinzel;
+font-size:30px;
+font-weight:1000;
+padding:50px 0px 0px 0px;
+}
+.para::first-letter{
+font-size:30px;
+font-weight:500;
+
+}
+.padding_and_margin{
+padding:50px 250px;
+
+}
+.padding_and_margin img{
+margin:5px 15px 0px 0px;
+float:left;
+}
+.padding_and_margin h4{
+padding:0px 15px;
+margin:5px 0px px 0px;
+font-size:20px;
+font-weight:bold;
+font-family:cinzel;
+
+
+}
+.padding_and_margin p{
+font-size:13px;
+text-align:justify;
+font-family:roboto;
+padding:0px 10px;
+letter-spacing:1px;
+}
+.list{
+padding:25px 50px;
+list-style-type:square;
+background:orange;
+margin-bottom:-55px;
+
+}
+ul li{
+display:inline;
+padding:25px;
+
+}
+li{
+color:#0000;
+font-size:13px;
+font-family:roboto;
+letter-spacing:1.5px;
+font-weight:500;
+}
+
+ul li a{
+color:black;
+}
+.logo img{
+float:left;
+padding:3px 3px;0px 0px
+margin-top:0;
+margin-right:0;
+margin-left:30px;
+margin-bottom:-30px;
+}
+
+.footer{
+background:black;
+padding:5px 0px 5px 0px;
+width:100%;
+position:fixed;
+bottom:0;
+color:white;
+}
