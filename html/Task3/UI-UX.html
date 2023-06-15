@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:border="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -12,6 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
+    <!Font Start!>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto&display=swap"
+          rel="stylesheet">
+    <!Font End!>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -23,67 +30,358 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-2 bg-secondary">
-            <h4 class="text-center mt"><b>OFSPACE.CO</b></h4>
+        <div class="col-md-2 align" style="border-right:solid 1px #dddddd40">
+            <h4 class="text-center mt "><b>OFSPACE.CO</b></h4>
 
             <div>
                 <p>MAIN MENU</p>
-                <ul class="nav nav-pills nav-stacked navbar-text">
-                    <li class="active "><a><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                    <li><a><span class="glyphicon glyphicon-comment"></span>Message</a></li>
-                    <li class=""><a><i class="fa-thin fa-house"></i> Analytics</a></li>
-                    <li class=""><a>Transaction</a></li>
-                    <li class=""><a>Payment</a></li>
-                </ul>
+                <div class="list align">
+                    <button href=><span class="glyphicon glyphicon-home"></span> Home</button>
+                    <button><span class="glyphicon glyphicon-comment"></span> Message</button>
+                    <button><span class="glyphicon glyphicon-comment"></span> Analytics</button>
+                    <button><span class="glyphicon glyphicon-home"></span> Transaction</button>
+                    <button><span class="glyphicon glyphicon-home"></span> Payment</button>
+                </div>
             </div>
-            <div>
-                <ul class="nav nav-pills nav-stacked navbar-text">
-                    <li class="active "><a><span class="glyphicon glyphicon-home"></span> Activity</a></li>
-                    <li><a><span class="glyphicon glyphicon-comment"></span>Balance</a></li>
-                    <li class=""><a>Spending</a></li>
-                    <li class=""><a>Refund</a></li>
 
-                </ul>
+            <div>
+                <p>ACCOUNT MANAGEMENT</p>
+                <div class="list align">
+                    <button style="background:#f7f8f8"><span class="glyphicon glyphicon-home"></span> Activity</button>
+                    <button><span class="glyphicon glyphicon-home"></span> Balance</button>
+                    <button><span class="glyphicon glyphicon-home"></span> Spending</button>
+                    <button><span class="glyphicon glyphicon-home"></span> Refund</button>
+                </div>
+
+
             </div>
-            <div align="bottom">
-                <p><span class="glyphicon glyphicon-cog"></span> Setting</p>
-                <p><span class="glyphicon glyphicon-log-out"></span> Log out</p>
+            <div class="">
+                <h6><span class="glyphicon glyphicon-cog"></span> Setting</h6>
+                <h6><span class="glyphicon glyphicon-log-out"></span> Log out</h6>
             </div>
         </div>
-        <div class="col-md-10 mb-3" align="right">
-            <button type="button" class="btn1"><span class="glyphicon glyphicon-envelope" style="color:black"></span>
-            </button>
-            <button type="button" class="btn1"><span class="glyphicon glyphicon-bell" style="color:black"></span>
-            </button>
-            <img src="profile.jpg" width="3%" height="30px" class="img-circle">
-            <span id="profile">Celina<span class="caret"></span></span>
-            <hr>
+        <! Navigation Bar!>
+        <div class="col-md-10 mb-3">
+            <div class="col-md-12  log-out" align="right" style="border-bottom:solid 1px #dddddd40">
+                <button type="button" class="btn1"><span class="glyphicon glyphicon-envelope"
+                                                         style="color:black"></span>
+                </button>
+                <button type="button" class="btn1"><span class="glyphicon glyphicon-bell" style="color:black"></span>
+                </button>
+                <img src="profile.jpg" width="3%" height="30px" class="img-circle">
+                <span id="profile">Umaiza<span class="caret"></span></span>
+
+            </div>
+            <! Column 2!>
             <div class="row">
                 <div class="col-md-8 " align="left">
-                    <h3>Dashboard</h3>
-                    <div class="row">
-                        <div class="col-md-4 ">
-                            <div class="ownwell">
-                                <span>Balance</span>
-                                    <button type="button" class="btn2" ><span class="glyphicon glyphicon-send"
-                                                                             style="color:black"></span></button>
 
-                                <h3>$ 32,3900</h3>
+
+                    <!Dashboard!>
+                    <h3 class="dashboard">Dashboard</h3>
+                    <div class="row">
+                        <div class="col-md-4 " style="padding:0px 3px 0 10px;">
+                            <div class="ownwell" style="border:solid #ebf1ff; background:#ebf1ff;">
+                                <h5 style="float:left;">Balance</h5>
+                                <button type="button" class="btn2" style="float:right;"><span
+                                        class="glyphicon glyphicon-send"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+
+                                <h3 style="clear:both;">$ 32,3900</h3>
+                                <p>3.5% than last month</p>
                             </div>
                         </div>
-                        <div class="col-md-4 ">
-                            <div class="ownwell "><p> Spending</p></div>
-                            <div class="panel-body"><h3>$ 32,3900</h3></div>
+                        <div class="col-md-4 " style="padding:0px 4px;">
+                            <div class="ownwell" style="border:solid #fff5d9; background:#fff5d9;">
+                                <h5 style="float:left;">Spending</h5>
+                                <button type="button" class="btn2" style="float:right;"><span
+                                        class="glyphicon glyphicon-send"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+
+                                <h3 style="clear:both;">$ 32,3900</h3>
+                                <p>7.4% than last month</p>
+                            </div>
+
                         </div>
-                        <div class="col-md-4">
-                            <div class="ownwell">
-                                <p>Investment</p>
+                        <div class="col-md-4" style="padding:0px 4px;">
+                            <div class="ownwell" style="border:solid #f4f5f1; background:#f4f5f1;">
+                                <h5 style="float:left;">Investment</h5>
+                                <button type="button" class="btn2" style="float:right;"><span
+                                        class="glyphicon glyphicon-send"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+
+                                <h3 style="clear:both;">$ 32,3900</h3>
+                                <p>12.5% than last month</p>
                             </div>
                         </div>
                     </div>
+
+                    <!Dashboard End!>
+
+                    <!Spending!>
+
+                    <h3 class="spending">Spending</h3>
+                    <div class="row" style="padding:0;">
+
+                        <! Card Home Rent !>
+                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                            <div class="ownwell2" style="border:solid #E3E5FD; background:#E3E5FD;">
+                                <button type="button" class="btn3" style="float:left;"><span
+                                        class="glyphicon glyphicon-home"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <h5 style="clear:both;">Home Rent</h5>
+                                <p>$1200</p>
+                            </div>
+                        </div>
+
+                        <! Card Mobile Bill !>
+                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                            <div class="ownwell2" style="border:solid #FEF5D8; background:#FEF5D8;">
+                                <button type="button" class="btn3" style="float:left;"><span
+                                        class="glyphicon glyphicon-phone"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <h5 style="clear:both;">Mobile Bill</h5>
+                                <p>$1200</p>
+                            </div>
+                        </div>
+
+                        <! Card Electric Bill !>
+                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                            <div class="ownwell2" style="border:solid #EAF0FE; background:#EAF0FE;">
+                                <button type="button" class="btn3" style="float:left;"><span
+                                        class="glyphicon glyphicon-flash"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <h5 style="clear:both;">Electric Bill</h5>
+                                <p>$1200</p>
+                            </div>
+                        </div>
+
+                        <! Card Internet Bill !>
+                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                            <div class="ownwell2" style="border:solid #F2F5F1; background:#F2F5F1;">
+                                <button type="button" class="btn3" style="float:left;"><span
+                                        class="glyphicon glyphicon-signal"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <h5 style="clear:both;">Internet Bill</h5>
+                                <p>$1200</p>
+                            </div>
+                        </div>
+
+                        <! Card Gasoline !>
+                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                            <div class="ownwell2" style="border:solid #f1ecff; background:#f1ecff;">
+                                <button type="button" class="btn3" style="float:left;"><span
+                                        class="glyphicon glyphicon-tint"
+                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <h5 style="clear:both;">Gasoline</h5>
+                                <p>$1200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!Spending Ends!>
+
+                    <!Transaction Starts!>
+
+                    <div class="transaction">
+                        <table class="table table-hover table-border table-font">
+                            <! Text Transaction!>
+                            <h4>Transaction</h4>
+                            <tr>
+                                <th>Name</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Royal Arkin
+                                </td>
+                                <td>
+                                    <span value="inprogress" class="status">
+                                    In progress</span>
+                                </td>
+                                <td>
+                                    22 Jan 2023
+                                </td>
+                                <td>
+                                    $12,334
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Saimon Tanvir
+                                </td>
+                                <td><span value="completed" class="status">
+                                    Completed</span>
+                                </td>
+                                <td>
+                                    28 Dec 2023
+                                </td>
+                                <td>
+                                    $20,334
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Washi Bin
+                                </td>
+                                <td>
+                                    <span value="completed" class="status">
+                                    Completed</span>
+                                </td>
+                                <td>
+                                    12 Dec 2023
+                                </td>
+                                <td>
+                                    $42,334
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Zulia Andre
+                                </td>
+                                <td>
+                                    <span value="completed" class="status">
+                                    Completed</span>
+                                </td>
+                                <td>
+                                    12 Dec 2023
+                                </td>
+                                <td>
+                                    $42,334
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
                 </div>
-                <div class="col-md-4 bg-primary">
-                    <h3>Al Raiha</h3>
+
+                <! Profile Details !>
+                <div class="col-md-4">
+                    <div style="border:solid 1px #dddddd40; border-radius:15px; margin:20px 0px;">
+                        <div style="padding:30px 20px;" align="center">
+
+                            <img src="profile.jpg" width="25%" height="67px;" class="img-circle">
+                            <h4 style="padding:5px 0 0 0 ; font-family:roboto; font-size:20px; font-weight:600;">
+                                Umaiza</h4>
+                            <p style="color:grey">#193300</p>
+
+                            <!Send and request button!>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="button">Send</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" style="background-color:#f4f5f1; padding:8px 45px;">Request
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!Send Again!>
+                            <div class="send-again">
+                                <h4 style="float:left">Send again</h4>
+                                <span style="float:right;" class="glyphicon glyphicon-option-horizontal"></span>
+                            </div>
+                            <div class="row" style="clear:both">
+                                <div class="col-md-2 round-btn">
+                                    <button type="button" style="background:#f2f5f1;">AD</button>
+                                    <p>Adam Doe</p>
+                                </div>
+                                <div class="col-md-2 round-btn">
+                                    <button type="button" style="margin:0px 0px 0px 10px; background:#fef5d8;">DD
+                                    </button>
+                                    <p style="margin:5px 0px 0px 10px;">Danial Doe</p>
+                                </div>
+                                <div class="col-md-2 round-btn">
+                                    <button type="button" style="margin:0px 0px 0px 20px; background:#eaf0fe">WS
+                                    </button>
+                                    <p style="margin:5px 0px 0px 20px;">Will Smith</p>
+                                </div>
+                                <div class="col-md-2 round-btn">
+                                    <button type="button" style="margin:0px 0px 0px 30px; background:#f1ecff">SP
+                                    </button>
+                                    <p style="margin:5px 0px 0px 30px;">Sean Paul</p>
+                                </div>
+                                <div class="col-md-2 round-btn">
+                                    <button type="button" style="margin:0px 0px 0px 40px; background:#f2f5f1;">RM
+                                    </button>
+                                    <p style="margin:5px 0px 0px 40px;">Ricky Martin</p>
+                                </div>
+                            </div>
+                            <!Recent Transaction!>
+                            <div align="left">
+                                <div class="send-again">
+                                    <h4 style="float:left">Recent Transaction</h4>
+                                    <span style="float:right;" class="glyphicon glyphicon-option-horizontal"></span>
+                                    <br style="clear:both">
+                                </div>
+                                <!Recent Transaction- Shopping !>
+                                <div>
+                                    <button style="float:left;" class="btn3"><span
+                                            class="glyphicon glyphicon-briefcase"></span>
+                                    </button>
+                                    <div style="float:left;" class="recent-tra">
+                                        <h5 class=""><b>Shopping</b></h5>
+                                        <p>West Mart Complex</p>
+                                    </div>
+                                    <h6 style="float:right; margin-top:20px;" class="recent-tra" align="right">
+                                        -1,000$</h6>
+                                </div>
+
+                                <!Recent Transaction - Apple Payment!>
+                                <div style="clear:both">
+                                    <button style="float:left;" class="btn3"><span
+                                            class="glyphicon glyphicon-briefcase"></span>
+                                    </button>
+                                    <div style="float:left;" class="recent-tra">
+                                        <h5 class=""><b>Apple Payment</b></h5>
+                                        <p>Payment Received</p>
+                                    </div>
+                                    <h6 style="float:right; margin-top:20px;" class="recent-tra" align="right">
+                                        +3,000$</h6>
+                                </div>
+
+                                <!Recent Transaction - Paypal Payment!>
+
+                                <div style="clear:both">
+                                    <button style="float:left;" class="btn3"><span
+                                            class="glyphicon glyphicon-briefcase"></span>
+                                    </button>
+                                    <div style="float:left;" class="recent-tra">
+                                        <h5 class=""><b>Paypal Payment</b></h5>
+                                        <p>Payment Received</p>
+                                    </div>
+                                    <h6 style="float:right; margin-top:20px;" class="recent-tra" align="right">
+                                        +1,000$</h6>
+                                </div>
+                                <!Recent Transaction - Air Ticket!>
+                                <div style="clear:both">
+                                    <button style="float:left;" class="btn3"><span
+                                            class="glyphicon glyphicon-briefcase"></span>
+                                    </button>
+                                    <div style="float:left;" class="recent-tra">
+                                        <h5 class=""><b>Air Ticket</b></h5>
+                                        <p>Emirates Airline</p>
+                                    </div>
+                                    <h6 style="float:right; margin-top:20px;" class="recent-tra" align="right">
+                                        -121,00$</h6>
+                                </div>
+
+                                <!Recent Transaction - Credit Card Bill!>
+                                <div style="clear:both">
+                                    <button style="float:left;" class="btn3"><span
+                                            class="glyphicon glyphicon-briefcase"></span>
+                                    </button>
+                                    <div style="float:left;" class="recent-tra">
+                                        <h5 class=""><b>Credit Card Bill</b></h5>
+                                        <p>Credit card payment</p>
+                                    </div>
+                                    <h6 style="float:right; margin-top:20px;" class="recent-tra" align="right">
+                                        -1,000$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

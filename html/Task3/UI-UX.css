@@ -1,6 +1,43 @@
+
+.list button{
+background:white;
+padding:10px 75px 10px 10px;
+border:none;
+border-radius:10px;
+margin:2px 0 0 0 ;
+
+}
+.list button:hover{
+background:#f7f8f8;
+padding:10px 75px 10px 10px;
+border:none;
+border-radius:10px;
+margin:2px 0 0 0 ;
+
+}
+.list span{
+padding:0px 4px 0 0;
+}
+.button-active{
+background:grey;
+padding:10px 70px 10px 10px;
+border:none;
+border-radius:20px;
+margin:2px 0 0 0 ;
+
+}
+
 .mt{
 margin-top:30px;
 margin-bottom:30px;
+}
+.align div p{
+margin:40px 0px 10px 18px;
+font-family:roboto;
+font-size:10px;
+letter-spacing:0.5px;
+font-weight:bold;
+color:grey;
 }
 .navbar-text{
 width:90%
@@ -10,8 +47,12 @@ color:black;
 }
 .nav-pills{
 padding:0px 0px 0 15px;
-
 }
+.log-out{
+position:sticky;
+top:0px;
+}
+
 .btn1{
 margin:10px 2px;
 padding:5px 10px;
@@ -25,23 +66,179 @@ padding:10px 0px 0px 0px;
 .mb-3 hr{
 margin:0 0 2px 0;
 }
-.ownwell{
-border:solid #fbd2ff;
-background:#fbd2ff;
-border-radius:25px;
-padding:20px;
-height:130px;
-width:100%;
-margin:0px;
-}
+
 .btn2{
 margin:10px 2px;
+padding:10px 12px;
+border-radius:15px;
+border:none;
+background:white;
+margin-top:15px;
+float:right;
+}
+.ownwell{
+border-radius:15px;
 padding:5px 10px;
-border-radius:12px;
+width:100%;
+margin-top:10px;
+}
+
+.spending{
+font-family:roboto;
+font-weight:600;
+font-size:19px;
+margin-top:45px;
+margin-bottom:20px;
+}
+.dashboard{
+font-family:roboto;
+font-weight:600;
+font-size:23px;
+}
+.ownwell h3{
+font-family:roboto;
+font-weight:600;
+padding-bottom:3px;
+font-size:20px;
+}
+.ownwell h5{
+font-family:roboto;
+font-weight:100;
+padding-bottom:3px;
+font-size:15px;
+margin-top:25px;
+}
+.ownwell p{
+font-family:roboto;
+font-weight:bold;
+padding-bottom:3px;
+font-size:10px;
+}
+.ownwell2
+{
+border-radius:15px;
+margin-left:8px;
+padding:10px 13px 3px 13px;
+width:108%;
+margin-top:10px;
+}
+.btn3{
+margin: 5px 2px 25px 2px;
+padding:8px 8px;
+border-radius:15px;
 border:none;
 background:white;
 float:right;
 }
-.ownwell span{
+.ownwell2 h5{
+font-family:roboto;
+font-size:14px;
+font-weight:bold;
+letter-spacing:0.5px;
+}
+.ownwell2 p{
+font-family:roboto;
+font-weight:bold;
+font-size:12px;
+}
 
+.transaction{
+margin:30px 0;
+border-style:solid;
+border-width:1px;
+border-color:#dddddd40;
+border-radius:15px;
+padding:5px 10px 5px 10px ;
+}
+.transaction h4{
+font-family:Roboto;
+font-weight:bold;
+font-size:18px;
+padding:0px 0px 30px 0;
+}
+.status[value="completed"] {
+font-family:roboto;
+font-size:12px;
+margin:0;
+background-color:#d8f2ed;
+color:#559d8b;
+border-radius:25px;
+padding:3px 8px;
+}
+.status[value="inprogress"] {
+font-family:roboto;
+font-size:12px;
+margin:0;
+background-color:#fff1c9;
+color:#af994f;
+border-radius:25px;
+padding:3px 8px;
+}
+
+
+
+.table-font tr th{
+font-family:roboto;
+font-size:12px;
+}
+.table-font tr td{
+font-family:roboto;
+font-size:12px;
+}
+.col-md-6 button{
+background:#ebf1ff;
+margin-top:10px;
+padding:8px 55px;
+border-style:none;
+border-radius:15px;
+font-family:roboto;
+font-weight:bold;
+
+}
+.send-again{
+margin:50px 0 10px 5px;
+}
+.send-again h4{
+font-family:roboto;
+font-weight:600;
+font-size:15px;
+margin-top:-3px;
+margin-bottom:25px;
+}
+.round-btn button{
+padding:10px;
+border-radius:50%;
+border:none;
+}
+.round-btn p{
+font-family:roboto;
+font-size:12px;
+margin-top:5px;
+font-weight:bold;
+}
+.btn3{
+margin: 5px 2px 25px 2px;
+padding:12px 15px;
+border-radius:15px;
+border:none;
+background:#f8f7f8;
+}
+.recent-tra h5{
+padding-left:10px;
+letter-spacing:0.5px;
+
+}
+.recent-tra p{
+margin: -5px 0px 0px 0px;
+padding-left:10px;
+font-family:roboto;
+font-size:12px;
+color:grey;
+font-weight:normal;
+}
+.recent-tra {
+margin: 0px 0px 0px 0px;
+font-family:roboto;
+font-size:15px;
+font-weight:bold;
 }
