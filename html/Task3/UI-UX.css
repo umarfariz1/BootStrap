@@ -1,20 +1,58 @@
 
+
 .list button{
 background:white;
-padding:10px 75px 10px 10px;
+padding:10px 0px 10px 10px;
 border:none;
 border-radius:10px;
-margin:2px 0 0 0 ;
-
+margin:2px 0 0 10px ;
+width:100%;
+text-align:left;
 }
-.list button:hover{
+.list button:hover {
 background:#f7f8f8;
-padding:10px 75px 10px 10px;
+padding:10px 0px 10px 0px;
+padding:10px 0px 10px 10px;
+border:none;
+border-radius:10px;
+margin:2px 0 0 10px ;
+width:100%;
+text-align:left;
+}
+
+.list button:active {
+background:#f7f8f8;
+padding:10px 0px 10px 0px;
 border:none;
 border-radius:10px;
 margin:2px 0 0 0 ;
+width:100%;
+}
+#badge{
+padding:4px;
+margin:0px 0px 0 50px;
+background:black;
+font-size:7px;
 
 }
+.signout{
+padding: 0 0 0px 15px;
+}
+.signout a{
+color:black;
+font-family:roboto;
+}
+.signout a span{
+color:grey;
+margin-right:5px;
+}
+
+
+
+#caret{
+padding-bottom:0px;
+}
+
 .list span{
 padding:0px 4px 0 0;
 }
@@ -48,10 +86,7 @@ color:black;
 .nav-pills{
 padding:0px 0px 0 15px;
 }
-.log-out{
-position:sticky;
-top:0px;
-}
+
 
 .btn1{
 margin:10px 2px;
@@ -174,16 +209,25 @@ color:#af994f;
 border-radius:25px;
 padding:3px 8px;
 }
-
-
-
-.table-font tr th{
-font-family:roboto;
-font-size:12px;
+#table th{
+padding:25px;
+color:grey;
+border-top:none;
 }
-.table-font tr td{
+
+
+.table-style tr th{
 font-family:roboto;
 font-size:12px;
+font-weight:bold;
+}
+#table tr td{
+font-family:roboto;
+font-size:12px;
+font-weight:bold;
+padding:15px;
+border-bottom:solid;
+border-color:#dddddd40;
 }
 .col-md-6 button{
 background:#ebf1ff;
@@ -241,4 +285,29 @@ margin: 0px 0px 0px 0px;
 font-family:roboto;
 font-size:15px;
 font-weight:bold;
+}
+#table img{
+border-radius:50% 45% 50% 45%;
+margin-right:15px;
+}
+#oldest{
+border:none;
+background:white;
+padding:5px 15px;
+font-family:roboto;
+font-weight:bold;
+letter-spacing:1px;
+}
+#newest{
+border:solid 1px;
+border-radius:20px;
+border-color:#dddddd40;
+background:white;
+padding:5px 15px;
+font-family:roboto;
+font-weight:bold;
+letter-spacing:1px;
+}
+.amount{
+text-align:right;
 }

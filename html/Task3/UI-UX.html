@@ -20,49 +20,63 @@
           rel="stylesheet">
     <!Font End!>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!--<script src="js/bootstrap.min.js"></script>-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
 <div class="container-fluid">
-
     <div class="row">
-        <div class="col-md-2 align" style="border-right:solid 1px #dddddd40">
+        <div class="col-md-2 col-xs-2 align" style="border-right:solid 1px #dddddd40">
             <h4 class="text-center mt "><b>OFSPACE.CO</b></h4>
 
             <div>
                 <p>MAIN MENU</p>
-                <div class="list align">
-                    <button href=><span class="glyphicon glyphicon-home"></span> Home</button>
-                    <button><span class="glyphicon glyphicon-comment"></span> Message</button>
-                    <button><span class="glyphicon glyphicon-comment"></span> Analytics</button>
-                    <button><span class="glyphicon glyphicon-home"></span> Transaction</button>
-                    <button><span class="glyphicon glyphicon-home"></span> Payment</button>
+                <div class="list" align="center">
+                    <button href="#"><span class="glyphicon glyphicon-home"></span> Home</button>
+                    <button href="#"><span class="glyphicon glyphicon-comment"></span> Message<span class="badge"
+                                                                                                    id="badge">26</span>
+                    </button>
+                    <button href="#"><span class="glyphicon glyphicon-stats"></span> Analytics</button>
+                    <button href="#"><span class="glyphicon glyphicon-sort"></span> Transaction</button>
+                    <button href="#"><span class="glyphicon glyphicon-credit-card"></span> Payment<span class="badge"
+                                                                                                        id="badge">12</span>
+                    </button>
                 </div>
             </div>
-
             <div>
                 <p>ACCOUNT MANAGEMENT</p>
-                <div class="list align">
-                    <button style="background:#f7f8f8"><span class="glyphicon glyphicon-home"></span> Activity</button>
-                    <button><span class="glyphicon glyphicon-home"></span> Balance</button>
-                    <button><span class="glyphicon glyphicon-home"></span> Spending</button>
-                    <button><span class="glyphicon glyphicon-home"></span> Refund</button>
-                </div>
+                <div class="list ">
+                    <button><span class="glyphicon glyphicon-file" style="float:left; margin:0 2px;"></span>
+                        Activity<span class="glyphicon glyphicon-chevron-down"
+                                      style="float:right; margin-right:20px; margin-top:2px;"></span>
 
+
+
+                    </button>
+   
+                    <button style="padding-left:30px;">Balance</button>
+                    <br>
+                    <button style="padding-left:30px;"> Spending</button>
+                    <br>
+                    <button style="padding-left:30px;"> Refund</button>
+                </div>
+            </div>
+            <div style="">
 
             </div>
-            <div class="">
-                <h6><span class="glyphicon glyphicon-cog"></span> Setting</h6>
-                <h6><span class="glyphicon glyphicon-log-out"></span> Log out</h6>
+            <div class="signout" style=" height:360px;" align="bottom">
+                <a href="#" style="position:absolute; bottom:30px; left=0;"><span
+                        class="glyphicon glyphicon-cog"></span> Setting</a>
+                <a href="#"style="position:absolute; bottom:0px; left=0;"><span class="glyphicon glyphicon-log-out"></span> Log
+                    out</a>
             </div>
         </div>
         <! Navigation Bar!>
-        <div class="col-md-10 mb-3">
-            <div class="col-md-12  log-out" align="right" style="border-bottom:solid 1px #dddddd40">
+        <div class="col-md-10 col-xs-10 mb-3">
+            <div class="col-md-12  col-xs-12 log-out" align="right" style="border-bottom:solid 1px #dddddd40">
                 <button type="button" class="btn1"><span class="glyphicon glyphicon-envelope"
                                                          style="color:black"></span>
                 </button>
@@ -70,51 +84,49 @@
                 </button>
                 <img src="profile.jpg" width="3%" height="30px" class="img-circle">
                 <span id="profile">Umaiza<span class="caret"></span></span>
-
             </div>
             <! Column 2!>
             <div class="row">
-                <div class="col-md-8 " align="left">
+                <div class="col-md-8 col-xs-8" align="left">
 
 
                     <!Dashboard!>
                     <h3 class="dashboard">Dashboard</h3>
                     <div class="row">
-                        <div class="col-md-4 " style="padding:0px 3px 0 10px;">
+                        <div class="col-md-4 col-xs-4" style="padding:0px 3px 0 10px;">
                             <div class="ownwell" style="border:solid #ebf1ff; background:#ebf1ff;">
                                 <h5 style="float:left;">Balance</h5>
-                                <button type="button" class="btn2" style="float:right;"><span
-                                        class="glyphicon glyphicon-send"
-                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <button type="button" class="btn2" style="float:right;"><svg style="margin:2px  0 -2px 0;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                </svg></button>
 
                                 <h3 style="clear:both;">$ 32,3900</h3>
                                 <p>3.5% than last month</p>
                             </div>
                         </div>
-                        <div class="col-md-4 " style="padding:0px 4px;">
+                        <div class="col-md-4 col-xs-4" style="padding:0px 4px;">
                             <div class="ownwell" style="border:solid #fff5d9; background:#fff5d9;">
                                 <h5 style="float:left;">Spending</h5>
-                                <button type="button" class="btn2" style="float:right;"><span
-                                        class="glyphicon glyphicon-send"
-                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <button type="button" class="btn2" style="float:right;"><svg style="margin:2px  0 -2px 0;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></button>
 
                                 <h3 style="clear:both;">$ 32,3900</h3>
                                 <p>7.4% than last month</p>
                             </div>
 
                         </div>
-                        <div class="col-md-4" style="padding:0px 4px;">
+                        <div class="col-md-4 col-xs-4" style="padding:0px 4px;">
                             <div class="ownwell" style="border:solid #f4f5f1; background:#f4f5f1;">
                                 <h5 style="float:left;">Investment</h5>
-                                <button type="button" class="btn2" style="float:right;"><span
-                                        class="glyphicon glyphicon-send"
-                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <button type="button" class="btn2" style="float:right;"><svg style="margin:2px  0 -2px 0;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></button>
 
                                 <h3 style="clear:both;">$ 32,3900</h3>
                                 <p>12.5% than last month</p>
                             </div>
                         </div>
                     </div>
+
 
                     <!Dashboard End!>
 
@@ -124,29 +136,30 @@
                     <div class="row" style="padding:0;">
 
                         <! Card Home Rent !>
-                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                        <div class="col-md-2 col-xs-2" style="padding:0px; margin:0px 10px;">
                             <div class="ownwell2" style="border:solid #E3E5FD; background:#E3E5FD;">
-                                <button type="button" class="btn3" style="float:left;"><span
-                                        class="glyphicon glyphicon-home"
-                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <button type="button" class="btn3" style="float:left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                                </svg></button>
                                 <h5 style="clear:both;">Home Rent</h5>
                                 <p>$1200</p>
                             </div>
                         </div>
 
                         <! Card Mobile Bill !>
-                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                        <div class="col-md-2 col-xs-2" style="padding:0px; margin:0px 10px;">
                             <div class="ownwell2" style="border:solid #FEF5D8; background:#FEF5D8;">
-                                <button type="button" class="btn3" style="float:left;"><span
-                                        class="glyphicon glyphicon-phone"
-                                        style="color:black; margin:1px 1.5px 0 0px;"></span></button>
+                                <button type="button" class="btn3" style="float:left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                </svg></button>
                                 <h5 style="clear:both;">Mobile Bill</h5>
                                 <p>$1200</p>
                             </div>
                         </div>
 
                         <! Card Electric Bill !>
-                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                        <div class="col-md-2 col-xs-2" style="padding:0px; margin:0px 10px;">
                             <div class="ownwell2" style="border:solid #EAF0FE; background:#EAF0FE;">
                                 <button type="button" class="btn3" style="float:left;"><span
                                         class="glyphicon glyphicon-flash"
@@ -157,7 +170,7 @@
                         </div>
 
                         <! Card Internet Bill !>
-                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                        <div class="col-md-2 col-xs-2" style="padding:0px; margin:0px 10px;">
                             <div class="ownwell2" style="border:solid #F2F5F1; background:#F2F5F1;">
                                 <button type="button" class="btn3" style="float:left;"><span
                                         class="glyphicon glyphicon-signal"
@@ -168,7 +181,7 @@
                         </div>
 
                         <! Card Gasoline !>
-                        <div class="col-md-2 " style="padding:0px; margin:0px 10px;">
+                        <div class="col-md-2 col-xs-2" style="padding:0px; margin:0px 10px;">
                             <div class="ownwell2" style="border:solid #f1ecff; background:#f1ecff;">
                                 <button type="button" class="btn3" style="float:left;"><span
                                         class="glyphicon glyphicon-tint"
@@ -183,18 +196,21 @@
                     <!Transaction Starts!>
 
                     <div class="transaction">
-                        <table class="table table-hover table-border table-font">
+                        <table class="table table-hover table-border table-style" id="table">
                             <! Text Transaction!>
-                            <h4>Transaction</h4>
+                            <h4 style="float:left">Transaction</h4>
+                            <button style="float:right;  margin:10px 0px;" id="oldest">Oldest</button>
+                            </h4>
+                            <button style="float:right; margin:10px 20px;" id="newest">Newest</button>
                             <tr>
                                 <th>Name</th>
                                 <th>Status</th>
                                 <th>Date</th>
-                                <th>Amount</th>
+                                <th class="amount">Amount</th>
                             </tr>
                             <tr>
-                                <td>
-                                    Royal Arkin
+                                <td width="33%">
+                                    <img src="profile.jpg" width="15% "> Royal Arkin
                                 </td>
                                 <td>
                                     <span value="inprogress" class="status">
@@ -203,13 +219,13 @@
                                 <td>
                                     22 Jan 2023
                                 </td>
-                                <td>
+                                <td class="amount">
                                     $12,334
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    Saimon Tanvir
+                                <td width="33%">
+                                    <img src="profile.jpg" width="15% ">Saimon Tanvir
                                 </td>
                                 <td><span value="completed" class="status">
                                     Completed</span>
@@ -217,13 +233,13 @@
                                 <td>
                                     28 Dec 2023
                                 </td>
-                                <td>
+                                <td class="amount">
                                     $20,334
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    Washi Bin
+                                <td width="33%">
+                                    <img src="profile.jpg" width="15% ">Washi Bin
                                 </td>
                                 <td>
                                     <span value="completed" class="status">
@@ -232,13 +248,13 @@
                                 <td>
                                     12 Dec 2023
                                 </td>
-                                <td>
+                                <td class="amount">
                                     $42,334
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    Zulia Andre
+                                <td width="33%">
+                                    <img src="profile.jpg" width="15% ">Zulia Andre
                                 </td>
                                 <td>
                                     <span value="completed" class="status">
@@ -247,7 +263,7 @@
                                 <td>
                                     12 Dec 2023
                                 </td>
-                                <td>
+                                <td class="amount">
                                     $42,334
                                 </td>
                             </tr>
@@ -257,7 +273,7 @@
                 </div>
 
                 <! Profile Details !>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-4">
                     <div style="border:solid 1px #dddddd40; border-radius:15px; margin:20px 0px;">
                         <div style="padding:30px 20px;" align="center">
 
@@ -268,10 +284,10 @@
 
                             <!Send and request button!>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-xs-6">
                                     <button type="button">Send</button>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-xs-6">
                                     <button type="button" style="background-color:#f4f5f1; padding:8px 45px;">Request
                                     </button>
                                 </div>
@@ -283,26 +299,26 @@
                                 <span style="float:right;" class="glyphicon glyphicon-option-horizontal"></span>
                             </div>
                             <div class="row" style="clear:both">
-                                <div class="col-md-2 round-btn">
+                                <div class="col-md-2 col-xs-2 round-btn">
                                     <button type="button" style="background:#f2f5f1;">AD</button>
                                     <p>Adam Doe</p>
                                 </div>
-                                <div class="col-md-2 round-btn">
+                                <div class="col-md-2 col-xs-2 round-btn">
                                     <button type="button" style="margin:0px 0px 0px 10px; background:#fef5d8;">DD
                                     </button>
                                     <p style="margin:5px 0px 0px 10px;">Danial Doe</p>
                                 </div>
-                                <div class="col-md-2 round-btn">
+                                <div class="col-md-2 col-xs-2 round-btn">
                                     <button type="button" style="margin:0px 0px 0px 20px; background:#eaf0fe">WS
                                     </button>
                                     <p style="margin:5px 0px 0px 20px;">Will Smith</p>
                                 </div>
-                                <div class="col-md-2 round-btn">
+                                <div class="col-md-2 col-xs-2 round-btn">
                                     <button type="button" style="margin:0px 0px 0px 30px; background:#f1ecff">SP
                                     </button>
                                     <p style="margin:5px 0px 0px 30px;">Sean Paul</p>
                                 </div>
-                                <div class="col-md-2 round-btn">
+                                <div class="col-md-2 col-xs-2 round-btn">
                                     <button type="button" style="margin:0px 0px 0px 40px; background:#f2f5f1;">RM
                                     </button>
                                     <p style="margin:5px 0px 0px 40px;">Ricky Martin</p>
@@ -317,8 +333,11 @@
                                 </div>
                                 <!Recent Transaction- Shopping !>
                                 <div>
-                                    <button style="float:left;" class="btn3"><span
-                                            class="glyphicon glyphicon-briefcase"></span>
+                                    <button style="float:left;" class="btn3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                        </svg>
                                     </button>
                                     <div style="float:left;" class="recent-tra">
                                         <h5 class=""><b>Shopping</b></h5>
@@ -330,8 +349,12 @@
 
                                 <!Recent Transaction - Apple Payment!>
                                 <div style="clear:both">
-                                    <button style="float:left;" class="btn3"><span
-                                            class="glyphicon glyphicon-briefcase"></span>
+                                    <button style="float:left;" class="btn3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                                            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                        </svg>
                                     </button>
                                     <div style="float:left;" class="recent-tra">
                                         <h5 class=""><b>Apple Payment</b></h5>
@@ -344,8 +367,11 @@
                                 <!Recent Transaction - Paypal Payment!>
 
                                 <div style="clear:both">
-                                    <button style="float:left;" class="btn3"><span
-                                            class="glyphicon glyphicon-briefcase"></span>
+                                    <button style="float:left;" class="btn3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16">
+                                            <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"/>
+                                        </svg>
                                     </button>
                                     <div style="float:left;" class="recent-tra">
                                         <h5 class=""><b>Paypal Payment</b></h5>
@@ -356,8 +382,11 @@
                                 </div>
                                 <!Recent Transaction - Air Ticket!>
                                 <div style="clear:both">
-                                    <button style="float:left;" class="btn3"><span
-                                            class="glyphicon glyphicon-briefcase"></span>
+                                    <button style="float:left;" class="btn3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                                            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                                        </svg>
                                     </button>
                                     <div style="float:left;" class="recent-tra">
                                         <h5 class=""><b>Air Ticket</b></h5>
@@ -369,8 +398,12 @@
 
                                 <!Recent Transaction - Credit Card Bill!>
                                 <div style="clear:both">
-                                    <button style="float:left;" class="btn3"><span
-                                            class="glyphicon glyphicon-briefcase"></span>
+                                    <button style="float:left;" class="btn3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                                        </svg>
                                     </button>
                                     <div style="float:left;" class="recent-tra">
                                         <h5 class=""><b>Credit Card Bill</b></h5>
